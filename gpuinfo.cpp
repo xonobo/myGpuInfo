@@ -18,9 +18,6 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
 
-	// COMMENT OUT TO SEE ODD THINGS
-	//cv::Mat A = cv::Mat::zeros(5,5,CV_32F);
-
     bool clpresent = 0 == clewInit();
     if(!clpresent) {
         cout << "opencl library not found." << endl;
@@ -86,6 +83,10 @@ int main(int argc, char *argv[]) {
         }
         delete[] device_ids;
     }
+    
+    // COMMENT OUT TO SEE ODD THINGS
+    //cv::Mat A = cv::Mat::zeros(5,5,CV_32F);
+    
     return 0;
 }
 
