@@ -1,3 +1,3 @@
 # myGpuInfo
-a demo project to show odd behavıour of EasyCL wıth opencv
+a demo project to show odd behaviour of EasyCL with opencv
 
